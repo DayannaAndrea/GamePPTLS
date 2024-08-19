@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JuegoPPTLS</string>
+    <string name="piedra">PIEDRA</string>
+    <string name="papel">PAPEL</string>
+    <string name="tijera">TIJERA</string>
+    <string name="lagarto">LAGARTO</string>
+    <string name="spock">SPOCK</string>
+    <string name="tu_seleccion">Tu seleccion:</string>
+    <string name="cpu">CPU:</string>
+    <string name="reinicar_puntuacion">REINICAR PUNTUACION</string>
+    <string name="ganados_0">Ganados: 0</string>
+    <string name="perdidos_0">Perdidos: 0</string>
+    <string name="empates_0">Empates: 0</string>
+</resources>

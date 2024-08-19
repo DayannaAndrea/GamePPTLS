@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Realice una seleccion:"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPiedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:onClick="piedra"
+        android:text="@string/piedra" />
+
+    <Button
+        android:id="@+id/btnPapel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="-50dp"
+        android:onClick="papel"
+        android:text="@string/papel"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnTijera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-49dp"
+        android:layout_marginRight="-50dp"
+        android:onClick="tijeras"
+        android:text="@string/tijera" />
+
+    <Button
+        android:id="@+id/btnLagarto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="lagarto"
+        android:text="@string/lagarto" />
+
+    <Button
+        android:id="@+id/btnSpock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-97dp"
+        android:layout_marginRight="-150dp"
+        android:onClick="spock"
+        android:text="@string/spock" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="70dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/tu_seleccion"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:text="vs" />
+
+    <TextView
+        android:id="@+id/txtCPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/cpu"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtGanados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ganados_0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtPerdidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/perdidos_0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtEmpatados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-40dp"
+        android:text="@string/empates_0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtGanador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtInformacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="reiniciar"
+        android:text="@string/reinicar_puntuacion" />
+
+</LinearLayout>
